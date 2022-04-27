@@ -3,7 +3,7 @@ import { GoogleOutlined } from "@ant-design/icons"
 
 import firebase from '../firebase'
 
-const auth = firebase.auth();
+export const auth = firebase.auth();
 
 function Login() {
   return (
